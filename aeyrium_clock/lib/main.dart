@@ -27,6 +27,5 @@ void main() {
   ///  - A clock widget (in this case, [AeyriumClock])
   ///  - A model (provided to you by [ClockModel])
   /// For more information, see the flutter_clock_helper package.
-  final notifier = ClockNotifier()..loadAssets();
-  runApp(ClockCustomizer((ClockModel model) => AeyriumClock(model, notifier)));
+  runApp(ClockCustomizer((ClockModel model) => AeyriumClock(model)));
 }

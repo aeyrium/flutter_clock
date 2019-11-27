@@ -30,7 +30,7 @@ class AeyriumClock extends StatefulWidget {
 
 class _AeyriumClockState extends State<AeyriumClock> {
   DateTime _now = DateTime.now();
-  String _temp;
+  // String _temp;
   WeatherCondition _condition;
   Timer _timer;
   Assets _assets = Assets();
@@ -65,7 +65,7 @@ class _AeyriumClockState extends State<AeyriumClock> {
   void _updateModel() {
     setState(() {
       _condition = widget.model.weatherCondition;
-      _temp = widget.model.temperatureString;
+      // _temp = widget.model.temperatureString;
     });
   }
 

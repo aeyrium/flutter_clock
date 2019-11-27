@@ -16,10 +16,7 @@ export 'src/digital_painter.dart';
 export 'src/digital_text.dart';
 export 'src/assets.dart';
 
-/// [AeyriumClock] is the main Widget for the clock application.  It has very little
-/// interactivity save for the storage of a [ClockModel] and a [ClockNotifier].
-/// It also provides a fallback Progress Indicator while the assets are being loaded
-/// to render the clock's UI.
+/// [AeyriumClock] is the main Widget for the clock application.
 class AeyriumClock extends StatefulWidget {
   AeyriumClock(this.model);
 

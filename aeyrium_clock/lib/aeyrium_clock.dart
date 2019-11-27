@@ -128,13 +128,12 @@ class _AeyriumClockState extends State<AeyriumClock> {
         case WeatherCondition.foggy:
           return PURE_WATER;
         case WeatherCondition.rainy:
+        case WeatherCondition.thunderstorm:
           return AQUA_SPLASH;
         case WeatherCondition.snowy:
           return COCHITI_LAKE;
         case WeatherCondition.sunny:
           return JUICY_PEACH;
-        case WeatherCondition.thunderstorm:
-          return VICIOUS_STANCE;
         case WeatherCondition.windy:
           return COCHITI_LAKE;
       }

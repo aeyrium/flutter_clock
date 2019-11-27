@@ -12,10 +12,8 @@ class DigitalDial {
 
   /// Paints a dial showing the specified [hour], [minute], and [second].
   void paint(int hour, int minute, int second) {
-    print(hour);
     hour = (hour > 12) ? hour - 12 : hour;
     hour = (hour == 0) ? 12 : hour;
-    print(hour);
     // NOTE: The images that are used to render the clock dials have the demension
     // of 240px x 245px.  Each dial "slice" is rendered relative to the same
     // dimensions to provide a common frame of reference and therefore make it

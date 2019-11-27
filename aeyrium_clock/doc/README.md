@@ -2,7 +2,7 @@
 
 Aeyrium's submission for the #FlutterClock challenge.
 
-![Screenshot of the Aeyrium Clock](./doc/media/DigitalDial.png)
+![Screenshot of the Aeyrium Clock](./media/DigitalDial.png)
 
 The outer dial displays the time in a analog-like interface.  The thick outer band relfects the hour, the inner marks are minutes, and the smaller dashes on the inner most ring reflects the seconds.
 

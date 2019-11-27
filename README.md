@@ -1,15 +1,10 @@
-# Flutter Clock
+# aeyrium_clock
 
-Welcome to Flutter Clock!
+Aeyrium's submission for the #FlutterClock challenge.
 
-See [flutter.dev/clock](https://flutter.dev/clock) for how to get started, submission requirements, contest rules, and FAQs.
+![Screenshot of the Aeyrium Clock](./aeyrium_clock/doc/media/DigitalDial.png)
 
-See a [live demo](https://maryx.github.io/flutter_clock) with Flutter for Web!
+The outer dial displays the time in a analog-like interface.  The thick outer band relfects the hour, the inner marks are minutes, and the smaller dashes on the inner most ring reflects the seconds.
 
-Example [Analog Clock](analog_clock)
+The inner text display shows the time expressed in 12 adn 24 hours along with the day of week and the current month/date.
 
-<img src='analog_clock/analog.gif' width='350'>
-
-Example [Digital Clock](digital_clock)
-
-<img src='digital_clock/digital.gif' width='350'>
